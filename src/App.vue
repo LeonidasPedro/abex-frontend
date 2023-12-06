@@ -118,7 +118,7 @@
             size="40"
           >
             <v-img
-              src="https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg?w=2000"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkQz6MBM4H75kQyj-knYjmZ3aCuD3k0AO9g&usqp=CAU"
             >
             </v-img>
           </v-avatar>
@@ -182,7 +182,7 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      name: 'Usuário',
+      name: 'Pedro',
       notification: [
         {title: 'Nova entrega de atividade!!!!', data: 'Aviso de testes'},
         {title: 'Atividade Sábado', data: 'Aviso de testes'}
@@ -192,15 +192,8 @@ export default {
         {title: 'Sair', link: "google.com"}
       ],
       pages: [
-        { icon: 'mdi-flag', title: 'Países', to: '/admin/pais' },
-        { icon: 'mdi-translate', title: 'Idiomas', to: '/admin/idioma' },
-        { icon: 'mdi-town-hall', title: 'Universidades', to: '/admin/universidade' },
-        { icon: 'mdi-school', title: 'Cursos', to: '/admin/curso' },
-        { icon: 'mdi-web-sync', title: 'Tipos de Mobilidade', to: '/admin/tipo-mobilidade' },
-        { icon: 'mdi-list-status', title: 'Status de Mobilidade', to: '/admin/status-mobilidade' },
-        { icon: 'mdi-account-school', title: 'Estudantes', to: '/admin/estudante' },
-        { icon: 'mdi-file-document', title: 'Editais', to: '/admin/edital-convenio-parceria' },
-        { icon: 'mdi-earth', title: 'Oportunidades pelo Mundo', to: '/admin/oportunidades-mundo' }
+        { icon: 'mdi-account', title: 'Alunos', to: '/admin/pais' },
+        { icon: 'mdi-earth', title: 'Demandas', to: '/admin/idioma' },
       ],
       miniVariant: false,
       right: true,
