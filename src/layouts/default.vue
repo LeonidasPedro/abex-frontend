@@ -144,7 +144,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <router-view/>
+        <Nuxt />
       </v-container>
     </v-main>
     <v-navigation-drawer
